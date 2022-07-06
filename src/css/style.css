@@ -1,0 +1,78 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  cursor: default;
+  /* background: #b0bfcf; */
+}
+.bg {
+  background: url(../resource/1585952628_oblaka_nebo_zakat_136072_1440x2560.jpg);
+
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #7b5a5f;
+}
+
+h1 {
+  color: rgb(180, 10, 214);
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  color: rgb(121, 121, 245);
+  text-align: center;
+}
+p {
+  margin: 30px 0;
+  color: white;
+  font-size: 20px;
+}
+
+li {
+  height: 40px;
+  font-size: 21px;
+}
+.weather-info {
+  font-style: italic;
+}
+
+.weather-dim {
+  text-align: right;
+}
+
+.frame {
+  max-width: 1000px;
+}
+
+.flag {
+  text-align: end;
+}
+
+.weather-card {
+  background: #7695ce;
+  --bs-card-spacer-y: 1.8rem;
+  --bs-card-spacer-x: 1.8rem;
+}
+.weather-today {
+  background: #fffdca;
+}
+.weather-data {
+  text-align: center;
+  color: rgb(37, 33, 33);
+}
+.weather-day {
+  list-style: none;
+  padding-left: 0;
+  color: rgb(180, 10, 214);
+}
+.active {
+  font-weight: bold;
+  cursor: default;
+}
+.hand:hover {
+  cursor: pointer;
+}
+.temp {
+  font-weight: bold;
+}
