@@ -76,3 +76,9 @@ li {
 .temp {
   font-weight: bold;
 }
+.open-source-link {
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  font-style: italic;
+}
